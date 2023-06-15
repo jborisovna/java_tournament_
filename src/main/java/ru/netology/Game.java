@@ -26,7 +26,7 @@ public class Game {
             throw new NotRegisteredException("One or both players are not registered");
         }
         if (player1.getStrength() < player2.getStrength()) {
-            return -1;
+            return 2;
         }
         if (player1.getStrength() > player2.getStrength()) {
             return 1;

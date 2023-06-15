@@ -30,7 +30,7 @@ public class GameTest {
 
     @Test
     public void shouldReturnWinPlayer2() {
-        int expected = -1;
+        int expected = 2;
         int actual = game.round("Jack", "Johnnie");
 
         Assertions.assertEquals(expected, actual);
